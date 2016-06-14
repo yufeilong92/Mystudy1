@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    tools:context="com.example.helloword.MainActivity"
+    android:textColor="#ffff00"
+    android:orientation="vertical"
+    android:weightSum="1">
+   <Button
+       android:layout_width="fill_parent"
+       android:id="@+id/btnpraymh370"
+       android:text="美女，我们等你回家"
+       android:textColor="#ffff00"
+       android:textSize="25dp"
+       android:background="#0099ff"
+       android:layout_height="wrap_content" />
+ <ImageView
+     android:id="@+id/tupian"
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+     android:src="@drawable//12"
+     android:layout_centerVertical="true"
+    />
+
+</RelativeLayout>
